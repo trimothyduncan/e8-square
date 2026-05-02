@@ -94,10 +94,15 @@
       gap: 10px;
     }
     .nav-logo .king {
-      font-size: 1.8rem;
-      color: var(--blue);
+      display: flex;
+      align-items: center;
       filter: drop-shadow(0 0 8px var(--blue-glow));
       animation: pulse-king 3s ease-in-out infinite;
+    }
+    .nav-logo .king img {
+      height: 36px;
+      width: auto;
+      display: block;
     }
     @keyframes pulse-king {
       0%,100% { filter: drop-shadow(0 0 8px var(--blue-glow)); }
@@ -992,7 +997,7 @@
     <div class="hero-grid"></div>
     <div class="hero-glow"></div>
     <div class="hero-king">
-      <img src="images/E8-blue.png" alt="E8-Square Logo" class="hero-logo-img">
+      <img src="images/e8-blue.png" alt="E8-Square Logo" class="hero-logo-img">
     </div>
     <p class="hero-eyebrow">E8-Square &bull; Where Kings Play</p>
     <h1 class="hero-headline">Where <span class="accent">Strategy</span><br>Meets Style.</h1>
